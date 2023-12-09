@@ -1,0 +1,48 @@
+
+    body {
+        transition: background-color 0.5s;
+    }
+    
+    #modoBoton {
+        border-radius: 30%; /* Hace que el botón sea redondo */
+        padding: 9px; 
+        color: blue;
+        background-color: rgb(0, 238, 255);
+    }
+    
+    .modo-noche {
+        background-color: #000000;
+        color: aqua;
+    }
+    hr{
+        padding: 3px;
+        border-color: blueviolet;
+    }
+
+    p{
+        color:darkblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+    }
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+   h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+   }
+   h3 {
+    color: blueviolet;
+    text-align: center;
+    padding: 0em; /*Una separacion se usa para separar mucho o dejar un espacio proporcionado*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+    
+    
