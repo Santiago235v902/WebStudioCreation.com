@@ -1,0 +1,33 @@
+body{
+    background: -webkit-linear-gradient( #45a0f5c2,#f8f0f0d0);
+}
+.ejemplos{
+    background-color: rgba(0, 0, 0, 0.452);
+    color:rgb(255, 238, 6);
+    font-size: 23px;
+    margin: 0px;
+    padding: 0px;
+        }
+h3{
+    background-color:rgba(0, 0, 0, 0.452) ;
+    color:rgb(209, 5, 5);
+    font-size: 22px;
+}
+
+h4{
+    background-color: rgba(0, 0, 0, 0.452);
+    color:rgb(125, 22, 173);
+    font-size: 22px;
+}
+    .image2 {
+        margin-left: 50px;
+    }
+    .texto-adicional{ 
+        background-color: #3498db; 
+        padding: 10px;
+        margin: 0px;
+        color: greenyellow;
+        font-size: 20px;
+        text-align: left; 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    }
