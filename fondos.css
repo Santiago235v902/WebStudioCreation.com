@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(70deg, rgb(0, 255, 115), rgb(85, 39, 253));
+  }
+  p{ 
+    transition: 2s;
+    background-color: #3498db; 
+    padding: 10px;
+    margin: 0px;
+    color: greenyellow;
+    font-size: 0px;
+    text-align: left; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p:hover{
+    transition: 1s;
+    background-color: white;
+    font-size: 23px;
+    color: black;
+ }   
+  h1{
+ font-size: 23px;
+color: aqua;
+background-color: rgba(0, 0, 0, 0.705);
+  }

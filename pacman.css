@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: gold;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+#game-container {
+    margin: 100px; /* Ajusta el valor según sea necesario */
+}
+
+#pacman {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.7);
+}
+
+.enemy {
+    height: 50px;
+    width: 50px;
+  background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.blue-coin {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    animation: shine 1s infinite;
+}
+
+.eye {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 40%;
+}
+.ojo2{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 60%
+}
+.ball {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    0% {
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9);
+    }
+    100% {
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    }
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: gold;
+}
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    display: none;
+}
