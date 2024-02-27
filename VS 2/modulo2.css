@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333; /* Fondo gris claro */
+}
+
+.barra-superior {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3498db; /* Fondo azul */
+    color: greenyellow; /* Color de texto blanco */
+    font-size: 17px;
+}
+
+.titulo,
+.titulo2 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size:18px;
+}
+
+
+.contenido {
+    position: relative;
+}
+
+.texto-adicional {
+    background-color: #3498db; /* Vuelve al fondo azul */
+    padding: 10px;
+    margin: 10px;
+    color: black; /* Color de texto negro para el texto adicional */
+}
+.cuadro-blanco {
+    /* Elimina la propiedad position: absolute; */
+    width: 100%;
+    height: 20px;
+    background-color: #ecf0f1; /* Fondo gris claro para el cuadro blanco */
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.container {
+    position: relative;
+    height: 170vh; /* Ajusta según sea necesario */
+    overflow: hidden;
+}
+
+.animated-image {
+    position: absolute;/*No borrar CABRON QUE SE CARGA LA PAGINA,nueva actualicacion este bug ya esta solucionado si lo quitas solo pone el fondo arriba del todo*/ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 1;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    position: relative;
+    z-index: 2;
+}
+h2{
+    font-size: 30px;
+ text-align: center;
+    color: black; 
+}
+   h3,h4{
+    font-size: 18px;
+    text-align: left;
+    color: #ff0040;
+    background-color: #333;
+   }
+
+h4{
+    color: black;
+    background-color: #3498;
+    text-align: center;
+    font-size: 24px;
+}
+h6{
+    transition: 1s;
+    color:blueviolet;
+ text-align: center;
+    background-color: wheat;
+    font-size: 50px;
+  padding: 10px;
+} 
+h6:hover{
+    transition: 1s;
+color: #ff0040;
+background-color: #333;
+transition: 2s;
+padding: 20px;
+}
+.bloque{
+margin-left: 45px;
+}
+.Imagen2{
+margin-left: 670px;
+margin-top: -315px;
+}
+.imagexiconfin{
+     padding-left:370px;
+}
+.Imagentutorial2,.Imagentutorial{
+    transition: 4s;
+    filter: grayscale(100%);
+    padding: 0px;
+}
+.Imagentutorial2:hover,.Imagentutorial:hover{
+    transition: 2s;
+    filter: grayscale(0%);
+ 
+}
+.Derechos2{
+    margin-left: 1076px;
+}
+.imagenfinal{
+    margin-left: 360px;
+}
+.Derechos{
+    margin-left: -300px;
+    position: absolute;
+        } /*Quisiera poder ser mejor para no tener tantos lios...*/
+a{
+    transition: 2s;
+    color:black;
+    font-size: 26px;   
+}
+a:hover,.IG:hover{
+    transition: 2s;
+    color: aqua;
+    font-size: 33px;
+    
+}
+.ig{
+    margin-top: 0px;
+    min-width: 6px;
+    min-height: 3px;
+}
+/*INECESARIO PERO BUENO ESTA ES LA MUSICA QUE ESTOY ESCUCHANDO AHORA https://www.youtube.com/watch?v=bilSpNl-0a4 */
+

@@ -1,0 +1,35 @@
+body{
+background: linear-gradient(to left,rgb(166, 241, 25) 39px, rgb(11, 248, 121) 40%, rgb(71, 187, 223));
+}
+h1{
+     background-color: #0000008c;
+     color:gold;
+     font-size: 20px;
+}
+h2{
+    background-color: #0000008c;
+    color:rgb(166, 241, 25);
+    font-size: 25px;
+}
+.redireccionar{
+    transition: 2s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    font-size: 0;
+}
+.redireccionar:hover{
+    transition: 2s;
+    padding: 15px;
+    font-size: 20px;
+}
+.derechos{
+    transition: 2s;
+    margin-left: 400px;
+    filter: brightness(10);
+
+}
+.derechos:hover{
+    transition: 2s;
+    filter: brightness(2);
+}
